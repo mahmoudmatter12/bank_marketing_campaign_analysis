@@ -1,5 +1,6 @@
 # Optimized requirements for Vercel deployment
-# These versions are tested to be smaller while maintaining functionality
+# Compatible with Python 3.11 (specified in runtime.txt)
+# These pinned versions are smaller and tested
 
 # Core Data Analysis Libraries
 pandas==1.5.3
