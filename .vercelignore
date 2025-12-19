@@ -5,6 +5,9 @@ venv/
 .venv/
 env/
 .env/
+ENV/
+env.bak/
+venv.bak/
 
 # Python cache
 __pycache__/
@@ -12,25 +15,50 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+*.py[cod]
+*$py.class
 
 # IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
+*.sublime-*
 
 # Logs
 *.log
+*.log.*
 
 # OS files
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Development files
 run.sh
 .git/
 .gitignore
+.gitattributes
 
-# Documentation (optional - remove if you want to include)
+# Test files (if any)
+tests/
+test_*.py
+*_test.py
+
+# Documentation
 README.md
+*.md
+!requirements.txt
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter notebooks (if any)
+*.ipynb
+.ipynb_checkpoints/
 
