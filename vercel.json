@@ -11,12 +11,5 @@
       "src": "/(.*)",
       "dest": "index.py"
     }
-  ],
-  "functions": {
-    "index.py": {
-      "maxDuration": 30,
-      "memory": 3008,
-      "excludeFiles": "**/{.git,.github,venv,__pycache__,*.pyc,.pytest_cache,.coverage,htmlcov,tests,test_*.py,*_test.py,*.md,*.log,.DS_Store,Thumbs.db,.vscode,.idea}/**"
-    }
-  }
+  ]
 }
